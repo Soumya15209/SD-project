@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <style>
+        h1 {
+            color: white;
+            font-weight: bold;
+            text-shadow: aqua lime;
+        }
+        
+        form {
+            color: white;
+            font-size: 25px;
+        }
+        
+        body {
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: content-box;
+            border: 5px double black;
+            width: 400px;
+            height: 350px;
+            margin: auto;
+            margin-top: 10%;
+            margin-left: 150px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body background="https://www.roundsconsulting.com/wp-content/uploads/2018/09/education.jpg">
+
+    <h3>
+        <%= message %>
+    </h3>
+
+    <form action="/login" method="POST">
+
+        <h1>Login</h1>
+
+        <label>Username:</label>
+        <input type="text" name="username" required="">
+
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password" required="">
+
+
+        <br>
+        <br>
+
+        <button id="submit" class="float-left submit-button">Login</button>
+
+
+    </form>
+
+
+
+</body>
+
+</html>
